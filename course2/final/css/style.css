@@ -1,9 +1,9 @@
 .offset {
     display: inline-flex;
     background-color: #222;
-    width:155px;
+    width:161px;
     padding: 7px;
-    margin:0;
+    margin:-7px -8px;
 }
 a.offset:link, a.offset:visited, a.offset:active {
     color: #fedd56;
