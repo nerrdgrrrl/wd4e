@@ -94,3 +94,8 @@ figure{
     background-color: rgba(0, 0, 0, .75);
     padding: 25px;
 }
+img {
+    border: #ececec 3px solid;
+    margin: 7px;
+    border-radius: 12px;
+}
