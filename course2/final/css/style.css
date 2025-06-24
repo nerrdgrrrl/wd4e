@@ -1,7 +1,16 @@
 .offset {
     display: inline-flex;
+    background-color: #222;
+    width:155px;
+    padding: 7px;
+    margin:0;
 }
-.offset a {color: #222;}
+a.offset:link, a.offset:visited, a.offset:active {
+    color: #fedd56;
+}
+a.offset:hover {
+    color: #007c92;
+}
 nav {
     position: fixed;
     left: 0px;
@@ -80,4 +89,8 @@ figure{
     text-align: center;
     padding: 50px 25px;
     font-weight: 700;
+}
+.banner p {
+    background-color: rgba(0, 0, 0, .75);
+    padding: 25px;
 }
