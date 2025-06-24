@@ -70,7 +70,7 @@ figure{
     background-color: #ececec;    
 }
 .banner {
-    background: #fedd56 url(../images/birds2.JPG) no-repeat right center;
+    background: #222 url(../images/birds2.JPG) no-repeat right center;
     background-size: cover;
     width:100%;
     display:block;
