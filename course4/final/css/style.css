@@ -24,8 +24,7 @@ li{
 }
 
 img{
-    border: 5px solid blue;
-    border-radius: 35px;
+    
     width: 100%;
   }
 
@@ -73,6 +72,8 @@ img{
 
 figure {
     text-align: center;
+    border: 5px solid blue;
+    border-radius: 35px;
 }
 .grid {
     display:grid;
@@ -85,7 +86,7 @@ figure {
     grid-template-columns: 45% 45%;
     align-items: center;
     }
-    img{
+    figure{
     border-radius: 70%;
     }
     .grid figure:last-child{
@@ -95,7 +96,7 @@ figure {
 }
 
 @media screen and (min-width: 992px){
-    img{
+    figure{
     border-radius: 0;
     }
     .grid figure:nth-child(3n){
