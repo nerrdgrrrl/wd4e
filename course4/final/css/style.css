@@ -24,7 +24,6 @@ li{
 }
 
 img{
-    
     width: 100%;
   }
 
@@ -72,8 +71,18 @@ img{
 
 figure {
     text-align: center;
+    display: block;
+    background-color: #ccc;
     border: 5px solid blue;
     border-radius: 35px;
+    overflow:hidden;
+}
+figcaption{
+    font-size: 1.5rem;
+    padding:7px;
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
 }
 .grid {
     display:grid;
@@ -87,7 +96,10 @@ figure {
     align-items: center;
     }
     figure{
-    border-radius: 70%;
+    border-radius: 50%;
+    }
+    figcaption{
+    width:30%;
     }
     .grid figure:last-child{
      grid-column: span 2;
@@ -118,8 +130,7 @@ figure {
     figure{
         background-color: purple;
         color: lightyellow;
-    }
-    img{
     border-color: #000;
-  }
+    }
+ 
 }
