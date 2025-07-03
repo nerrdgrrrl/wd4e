@@ -1,0 +1,56 @@
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    color: #450069;
+    text-align: center;
+}
+
+a.text:link, a.text:visited {
+    color: #450069;
+    background-color: #fedd56;
+    padding: 0px 7px;
+    transition:/*border-radius 0.3s ease-in,*/
+                padding-top 0.5s ease,
+                padding-bottom 0.5s ease,
+                padding-left 0.5s ease,
+                padding-right 0.5s ease;
+    text-decoration: none;            
+}
+a.text:hover, a.text:active {
+    background-color: #fedd56;
+    padding: 7px;
+}
+
+.nav-align {
+    justify-content: space-evenly;
+}
+main h1{margin: 4rem 2rem;}
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+.col-sm {
+    margin: 2rem 0;
+}
+.openDiv {
+    padding: 2rem;
+    border: solid #fff 2px;
+    margin: 7px;
+}
+.openDiv img{
+    width: 100%;
+}
+.hilite {
+    background-color: #ececec;
+    border: solid #450069 2px;
+    border-radius: 12px;
+}
+
+@media (min-width:992px){
+.navbar-expand-lg .navbar-nav {
+flex-direction: row;
+}
+}
